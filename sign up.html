@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <style>
+            .background{
+                width: 190px;
+                height: auto;
+                margin:0 auto;
+                margin-top: 200px;
+                background-color:black; 
+                text-align: center;
+                color: white;
+            }
+            input {
+                color: white;
+                background-color: black;
+                width: auto;
+                margin-bottom: 5px;
+                border: solid white 1px;
+                padding: 5px;
+            }
+            
+            //입력해야되는 칸에 입력해야하는 것을 알려줌(e.x name, password, username)
+            input::placeholder{
+                color: red;
+            }
+            
+            button{
+                border-radius: 15px;
+                width: 180px;
+                height: 30px;
+                background-color: greenyellow;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="background">
+        <form>
+            <div>SIGN UP</div>
+            <input  placeholder="Name"><br>
+            <input  placeholder="Username">
+            <input  placeholder="Email">
+            <input  placeholder="Password">
+            <input  placeholder="Password confirm">
+            <button>SIGN UP</button>
+        </form>
+        </div>
+    </body>
+</html>
